@@ -15,6 +15,15 @@
 		002D27ED1F0E36A800F34F86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002D27EB1F0E36A800F34F86 /* Main.storyboard */; };
 		002D27EF1F0E36A800F34F86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002D27EE1F0E36A800F34F86 /* Assets.xcassets */; };
 		002D27F21F0E36A800F34F86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002D27F01F0E36A800F34F86 /* LaunchScreen.storyboard */; };
+		002D27FA1F0E37A600F34F86 /* VolleygameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D27F91F0E37A600F34F86 /* VolleygameVC.swift */; };
+		002D27FC1F0E37D100F34F86 /* VolleygameSC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002D27FB1F0E37D100F34F86 /* VolleygameSC.swift */; };
+		002D28001F0E403F00F34F86 /* VolleygameSC.sks in Resources */ = {isa = PBXBuildFile; fileRef = 002D27FF1F0E403F00F34F86 /* VolleygameSC.sks */; };
+		002D28041F0E40E600F34F86 /* vbwang1.png in Resources */ = {isa = PBXBuildFile; fileRef = 002D28021F0E40E600F34F86 /* vbwang1.png */; };
+		002D28051F0E40E600F34F86 /* volleyball1.png in Resources */ = {isa = PBXBuildFile; fileRef = 002D28031F0E40E600F34F86 /* volleyball1.png */; };
+		002D28081F0E411A00F34F86 /* f064.png in Resources */ = {isa = PBXBuildFile; fileRef = 002D28061F0E411A00F34F86 /* f064.png */; };
+		002D28091F0E411A00F34F86 /* f369.png in Resources */ = {isa = PBXBuildFile; fileRef = 002D28071F0E411A00F34F86 /* f369.png */; };
+		002D280C1F0E413100F34F86 /* ff064.png in Resources */ = {isa = PBXBuildFile; fileRef = 002D280A1F0E413100F34F86 /* ff064.png */; };
+		002D280D1F0E413100F34F86 /* ff369.png in Resources */ = {isa = PBXBuildFile; fileRef = 002D280B1F0E413100F34F86 /* ff369.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +37,15 @@
 		002D27EE1F0E36A800F34F86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		002D27F11F0E36A800F34F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		002D27F31F0E36A800F34F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002D27F91F0E37A600F34F86 /* VolleygameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolleygameVC.swift; sourceTree = "<group>"; };
+		002D27FB1F0E37D100F34F86 /* VolleygameSC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolleygameSC.swift; sourceTree = "<group>"; };
+		002D27FF1F0E403F00F34F86 /* VolleygameSC.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = VolleygameSC.sks; sourceTree = "<group>"; };
+		002D28021F0E40E600F34F86 /* vbwang1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vbwang1.png; path = "../../../Downloads/CC創用/可商用/vbwang1.png"; sourceTree = "<group>"; };
+		002D28031F0E40E600F34F86 /* volleyball1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = volleyball1.png; path = "../../../Downloads/CC創用/可商用/volleyball1.png"; sourceTree = "<group>"; };
+		002D28061F0E411A00F34F86 /* f064.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = f064.png; path = "../../../Downloads/CC創用/可商用/jewel-s-free101j/image/card/f064.png"; sourceTree = "<group>"; };
+		002D28071F0E411A00F34F86 /* f369.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = f369.png; path = "../../../Downloads/CC創用/可商用/jewel-s-free101j/image/card/f369.png"; sourceTree = "<group>"; };
+		002D280A1F0E413100F34F86 /* ff064.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ff064.png; path = "../../../Downloads/CC創用/可商用/jewel-s-free101j/image/icon/ff064.png"; sourceTree = "<group>"; };
+		002D280B1F0E413100F34F86 /* ff369.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ff369.png; path = "../../../Downloads/CC創用/可商用/jewel-s-free101j/image/icon/ff369.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,7 @@
 		002D27E01F0E36A700F34F86 /* volleyGame */ = {
 			isa = PBXGroup;
 			children = (
+				002D28011F0E40C100F34F86 /* imgs */,
 				002D27E11F0E36A700F34F86 /* AppDelegate.swift */,
 				002D27E31F0E36A800F34F86 /* GameScene.sks */,
 				002D27E51F0E36A800F34F86 /* Actions.sks */,
@@ -69,8 +88,24 @@
 				002D27EE1F0E36A800F34F86 /* Assets.xcassets */,
 				002D27F01F0E36A800F34F86 /* LaunchScreen.storyboard */,
 				002D27F31F0E36A800F34F86 /* Info.plist */,
+				002D27F91F0E37A600F34F86 /* VolleygameVC.swift */,
+				002D27FB1F0E37D100F34F86 /* VolleygameSC.swift */,
+				002D27FF1F0E403F00F34F86 /* VolleygameSC.sks */,
 			);
 			path = volleyGame;
+			sourceTree = "<group>";
+		};
+		002D28011F0E40C100F34F86 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				002D280A1F0E413100F34F86 /* ff064.png */,
+				002D280B1F0E413100F34F86 /* ff369.png */,
+				002D28061F0E411A00F34F86 /* f064.png */,
+				002D28071F0E411A00F34F86 /* f369.png */,
+				002D28021F0E40E600F34F86 /* vbwang1.png */,
+				002D28031F0E40E600F34F86 /* volleyball1.png */,
+			);
+			name = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,8 +168,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				002D28001F0E403F00F34F86 /* VolleygameSC.sks in Resources */,
+				002D28091F0E411A00F34F86 /* f369.png in Resources */,
+				002D28051F0E40E600F34F86 /* volleyball1.png in Resources */,
+				002D28081F0E411A00F34F86 /* f064.png in Resources */,
+				002D280C1F0E413100F34F86 /* ff064.png in Resources */,
 				002D27ED1F0E36A800F34F86 /* Main.storyboard in Resources */,
+				002D280D1F0E413100F34F86 /* ff369.png in Resources */,
 				002D27E41F0E36A800F34F86 /* GameScene.sks in Resources */,
+				002D28041F0E40E600F34F86 /* vbwang1.png in Resources */,
 				002D27EF1F0E36A800F34F86 /* Assets.xcassets in Resources */,
 				002D27F21F0E36A800F34F86 /* LaunchScreen.storyboard in Resources */,
 				002D27E61F0E36A800F34F86 /* Actions.sks in Resources */,
@@ -151,6 +193,8 @@
 				002D27E81F0E36A800F34F86 /* GameScene.swift in Sources */,
 				002D27EA1F0E36A800F34F86 /* GameViewController.swift in Sources */,
 				002D27E21F0E36A800F34F86 /* AppDelegate.swift in Sources */,
+				002D27FA1F0E37A600F34F86 /* VolleygameVC.swift in Sources */,
+				002D27FC1F0E37D100F34F86 /* VolleygameSC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
